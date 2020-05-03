@@ -1,8 +1,9 @@
-const BigNumber = require('bignumber.js')
-const colors = require('colors')
-const _ = require('lodash')
-const moment = require('moment')
-const { Client } = require('pg')
+const BigNumber = require('bignumber.js')   // arbitrary precision maths
+const colors = require('colors')    // console text coloringS
+const _ = require('lodash')         // easier array and other collections 
+// the assignation to _ disable auto assignation of last result to _
+const moment = require('moment')    // date time etc
+const { Client } = require('pg')    // postgresql client
 
 //////////////////////////////////////////////////////////////////////////////////
 
